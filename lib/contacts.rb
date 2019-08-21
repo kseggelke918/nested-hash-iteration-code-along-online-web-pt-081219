@@ -18,4 +18,6 @@ def remove_strawberry(contacts)
   contact.each do |person, data|
     data.each do |attribute, value|
       binding.pry 
+    end 
+  end 
 end
